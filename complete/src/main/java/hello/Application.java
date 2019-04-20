@@ -19,9 +19,9 @@ public class Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Employee employee = new Employee();
-        employee.setFirstName("Prasad");
-        employee.setLastName("Kharkar");
-        employee.setSalary(new Long(123566));
+        employee.setFirstName("Z Javy");
+        employee.setLastName("Spring Data JPA");
+        employee.setSalary(2L);
         repo.save(employee);
     }
 }
