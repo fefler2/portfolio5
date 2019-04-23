@@ -18,6 +18,24 @@ public class Application implements CommandLineRunner {
     private BooksRepository booksRepository;
 
     public static void main(String[] args) {
+
+        String s;
+        int a = 2; // random
+
+        switch (a){
+            case 1:
+                s = "a1";
+                break;
+            case 2: s = "a2";
+            break;
+            case 3: s = "s3";
+            break;
+            default:
+                s="s4";
+
+        }
+        System.out.println(s);
+
         SpringApplication.run(Application.class);
     }
 
